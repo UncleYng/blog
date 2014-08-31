@@ -44,7 +44,7 @@ git常用命令
 `$ git log --pretty=oneline` 显示版本快照记录,每条记录一行<br>
 
 **回退操作:**
-`$ git reset`回退到git仓库上个版本, 在git中,当前版本用**HEAD**表示, 也就是最新的提交, 上一个版本就是**HEAD^**,回退到上个版本也可以这样`$ git reset -- hard HEAD^`,上上个版本就是**HEAD^^**,向上10个版本可以写成**HEAD~10**<br>
+`$ git reset`回退到git仓库上个版本, 在git中,当前版本用`HEAD`表示, 也就是最新的提交, 上一个版本就是`HEAD^`,回退到上个版本也可以这样`$ git reset -- hard HEAD^`,上上个版本就是`HEAD^^`,向上10个版本可以写成`HEAD~10`<br>
 
 **修改操作:**
 当修改某个文件状态变为modified时,即已经修改但是不想提交,可以使用`$ git checkout -- filename`,已经add到了暂存区但未提交则可以使用`git reset HEAD filename`命令把暂存区的修改撤销掉<br>
