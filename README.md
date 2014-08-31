@@ -12,8 +12,8 @@ This is a blog system, lalala
 Ubuntu: sudo apt-get install git 完了.
 
 *配置用户名和邮箱:*
-> `git config --global user.email "yourmail@mail.com"`
-> `git config --global user.name "yourname"`
+> `git config --global user.email "yourmail@mail.com"` <br>
+`git config --global user.name "yourname"`
 
 *生成SSH key:*
 > 若是ubuntu,打开终端,使用: `$ ssh-keygen -t rsa`
