@@ -5,7 +5,7 @@ This is a blog system, lalala
 数据库
 =====
 
-数据库用MySQL, 新建用户名vv, 密码123456
+数据库用MySQL, 密码123456
 
 安装和使用Git
 =====
@@ -29,12 +29,11 @@ This is a blog system, lalala
 
 获取项目代码
 ====
-在`~/`目录下使用`$ mkdir workspace`创建workspace文件夹, `$ cd workspace`进入workspace, `$ mkdir blog`,
-再进入`blog/`, 运行`$ git init`, 创建git仓库, 再运行`$ git remote add blog git@github.com:xhwSkhizein/blog.git`添加与我blog的远程连接, 再运行`$ git pull blog master`则把项目拉取到本地git仓库, 可以使用eclipse导入maven工程导入项目.
+在`~/`目录下使用`$ mkdir workspace`创建workspace文件夹, `$ cd workspace`进入workspace, `$ mkdir blog`,再进入`blog/`,<br> 运行`$ git init`, 创建git仓库, 再运行`$ git remote add blog git@github.com:xhwSkhizein/blog.git`添加blog的远程连接, 再运行`$ git pull blog master`则把项目拉取到本地git仓库, 可以使用eclipse导入maven工程导入项目.
 
 git常用命令
 ====
-`$ git add` 添加文件到git缓冲区<br>[本地操作]
-`$ git commit -m 'commit message'` 提交代码到本地仓库<br>[本地操作]
-`$ git pull blog master` 将远程github上的代码拉取到本地仓库<br>[远程操作]
+`$ git add` 添加文件到git缓冲区[本地操作]<br>
+`$ git commit -m 'commit message'` 提交代码到本地仓库[本地操作]<br>
+`$ git pull blog master` 将远程github上的代码拉取到本地仓库[远程操作]<br>
 `$ git push blog master` 将本地仓库代码推送到github上[远程操作]
