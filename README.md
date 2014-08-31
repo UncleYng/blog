@@ -39,7 +39,7 @@ git常用命令
 `$ git push blog master` 将本地仓库代码推送到github上[远程操作]
 
 <br>
-其他一些命令:
+其他一些命令:<br>
 `$ git status` 查看git仓库状态<br>
 `$ git log --pretty=oneline` 显示版本快照记录,每条记录一行<br>
 
